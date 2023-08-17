@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    height: 100px;
+    width: auto;
+   display: flex;
+   padding-left: 20px;
+   align-items: center;
+   
+  
+}
+.logoa{
+   height: 100%;
+   
+   
+}
+img{
+    height:100%;
+    width:120px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-left: 15px;
+}
+.search{
+    height: 2rem;
+    border-radius: 15px;
+    margin-left: 180px;
+    width: 470px;
+    padding-left: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+   border: 1px solid #ccc;
+}
+.searchone{
+    height: 2rem;
+    width: 2rem;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.searchone svg{
+    padding-top: 9px;  
+}
+.searchone:hover{
+background-color: rgb(243, 239, 239);
+}
+.micro{
+    height: 25px;
+    width: 30px;
+    justify-content: center;
+    text-align: center;
+   margin-left: 25px;
+    padding-top: 7px;
+    background-color:#e1dede; 
+  border-radius: 25px;
+}
+.micro:hover{
+    background-color: #ccc;
+}
+.video{
+    height: 25px;
+    width: 30px;
+    justify-content: center;
+    text-align: center;
+   margin-left: 180px;
+    padding-top: 7px;
+  border-radius: 25px;
+
+}
+.video svg{
+    height:15px;   
+}
+.video:hover{
+    background-color: #ccc;
+}
+.notification{
+    height: 25px;
+    width: 30px;
+    justify-content: center;
+    text-align: center;
+   margin-left: 25px;
+    padding-top: 5px; 
+  border-radius: 25px;
+}
+.notification svg{
+    height: 17px;
+    
+    
+}
+.notification:hover{
+    background-color: #ccc;
+}
+/*search bar end */
+.homeone{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 8px;
+}
+.homeone svg{
+    height: 22px;
+    margin-top: 30%;
+}
+.homeone:hover{
+ background-color:rgb(243, 239, 239);
+}
+.you{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 8px;
+}
+.you svg{
+    height: 22px;
+    margin-top: 30%;
+}
+.you:hover{
+ background-color:rgb(243, 239, 239);
+}
+#container{
+  display: flex;
+   
+}
+.videoone{
+    display:flex;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+.videoone iframe{
+height: 200px;
+width: 380px;
+margin-left: 15px;
+border-radius: 15px;
+margin-top: 50px;
+
+}
+.secondlear{
+   height: 250px;
+   width: auto;
+  justify-content: center;
+    padding-left: 52px;
+   margin-top: 70px;
+}
+.secondlear iframe{
+    height: 200px;
+    width: 380px;
+    margin-left: 15px; 
+    border-radius: 15px;
+    margin-top: 50px; 
+    text-align: center;
+   
+}
